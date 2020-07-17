@@ -41,3 +41,16 @@ body {
 .header__nav-menu-items img {
   margin-right: 5px;
 }
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.carousel-inner {
+  width: 600px;
+  height: 600px;
+  border-radius: 20px;
+}
