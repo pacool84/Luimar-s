@@ -24,10 +24,12 @@ body {
   padding: 10px;
 }
 
+.header__nav {
+  width: 35%;
+  margin-right: 10px;
+}
+
 .header__nav-menu {
-  width: 670px;
-  /* height: 80px; */
-  padding: 0px;
   display: flex;
   justify-content: space-around;
   list-style: none;
@@ -39,14 +41,31 @@ body {
 }
 
 .header__nav-menu-items img {
+  height: 35px;
+  width: 35;
   margin-right: 5px;
+}
+
+.header__nav-menu-items a {
+  font-family: "Dancing Script", cursive;
+  font-size: 25px;
+  font-weight: bold;
+  color: #ff9c71;
+}
+
+.title {
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-size: 60px;
+  color: #e8ead3;
+  font-weight: 400;
+  margin: 20px 0;
 }
 
 .carousel {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
 }
 
 .carousel-inner {
