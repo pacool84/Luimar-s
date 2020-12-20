@@ -73,7 +73,7 @@ body {
   width: 190px;
   height: 250px;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 10px;
   box-shadow: 9px 9px 8px 1px rgba(198, 204, 198, 1);
   text-align: center;
   transition: 400ms;
@@ -90,11 +90,4 @@ body {
   height: 50%;
   margin-bottom: 15px;
   object-fit: cover;
-}
-
-@media (max-width: 380px) {
-  .main {
-    display: flex;
-    flex-direction: column;
-  }
 }
