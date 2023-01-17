@@ -27,7 +27,6 @@ body {
 
 .header__nav {
   width: 35%;
-  margin-right: 10px;
 }
 
 .header__nav-menu {
@@ -42,14 +41,14 @@ body {
 }
 
 .header__nav-menu-items img {
-  height: 35px;
-  width: 35;
+  height: 30px;
+  width: 30px;
   margin-right: 5px;
 }
 
 .header__nav-menu-items a {
   font-family: "Dancing Script", cursive;
-  font-size: 25px;
+  font-size: 18px;
   font-weight: bold;
   color: #ff9c71;
 }
@@ -67,7 +66,7 @@ body {
   /*  border: solid black 2px; */
   padding: 40px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
   border-radius: 20px;
 }
@@ -87,6 +86,7 @@ body {
   width: 120px;
   height: 120px;
   object-fit: cover;
+  object-position: center 75%;
   border-radius: 50%;
 }
 
@@ -98,12 +98,13 @@ body {
   display: flex;
   margin-bottom: 5px;
   justify-content: space-between;
-  border-bottom: 1px dashed #e8ead3;
+  border-bottom: 3px double #e8ead3;
 }
 
 .breakfast__product-title-price h4 {
   font-family: "Dancing Script", cursive;
   color: #e8ead3;
+  text-transform: capitalize;
 }
 
 .breakfast__product-title-price p {
@@ -115,6 +116,14 @@ body {
 .breakfast__product-description {
   color: #e8ead3;
   font-size: 14px;
+}
+
+.breakfast__message {
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  text-transform: capitalize;
+  color: #e8ead3;
 }
 
 .carousel {
